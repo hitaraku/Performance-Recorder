@@ -56,15 +56,63 @@
 		19385527211EA51B00C3479B /* Performance Recorder */ = {
 			isa = PBXGroup;
 			children = (
+				19385542211EA9B500C3479B /* Resources */,
+				19385541211EA99F00C3479B /* Supporting Files */,
+				19385540211EA97300C3479B /* Data Models */,
+				1938553F211EA96000C3479B /* Controllers */,
+				1938553E211EA95A00C3479B /* Views */,
+				1938553D211EA94A00C3479B /* Models */,
 				19385528211EA51B00C3479B /* AppDelegate.swift */,
-				1938552A211EA51B00C3479B /* ViewController.swift */,
-				1938552C211EA51B00C3479B /* Main.storyboard */,
-				19385532211EA51C00C3479B /* Assets.xcassets */,
-				19385534211EA51C00C3479B /* LaunchScreen.storyboard */,
-				19385537211EA51C00C3479B /* Info.plist */,
-				1938552F211EA51B00C3479B /* Performance_Recorder.xcdatamodeld */,
 			);
 			path = "Performance Recorder";
+			sourceTree = "<group>";
+		};
+		1938553D211EA94A00C3479B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1938553E211EA95A00C3479B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1938552C211EA51B00C3479B /* Main.storyboard */,
+				19385534211EA51C00C3479B /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1938553F211EA96000C3479B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1938552A211EA51B00C3479B /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		19385540211EA97300C3479B /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				1938552F211EA51B00C3479B /* Performance_Recorder.xcdatamodeld */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		19385541211EA99F00C3479B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19385537211EA51C00C3479B /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19385542211EA9B500C3479B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				19385532211EA51C00C3479B /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +334,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U4W8PZAU69;
-				INFOPLIST_FILE = "Performance Recorder/Info.plist";
+				INFOPLIST_FILE = "Performance Recorder/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +353,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U4W8PZAU69;
-				INFOPLIST_FILE = "Performance Recorder/Info.plist";
+				INFOPLIST_FILE = "Performance Recorder/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
